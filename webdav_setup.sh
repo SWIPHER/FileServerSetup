@@ -6,8 +6,8 @@ set -e
 # 配置参数
 # ===========================
 WEBDAV_DIR="/home/veronica"
-DAV_USER="veronica"
-DAV_PASS="Dage"
+DAV_USER="username" #这里输入账号
+DAV_PASS="password" #这里输入密码
 DAV_CONF="/etc/apache2/sites-available/webdav.conf"
 DAV_PASSFILE="/etc/apache2/dav_password"
 
